@@ -1,0 +1,41 @@
+<svg id="Gruppe_99" data-name="Gruppe 99" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91.368" height="94.652" viewBox="0 0 91.368 94.652">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_106" data-name="Rechteck 106" width="91.368" height="94.652" fill="none" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_94" data-name="Gruppe 94">
+    <g id="Gruppe_93" data-name="Gruppe 93" clip-path="url(#clip-path)">
+      <path id="Pfad_77" data-name="Pfad 77" d="M7,153.617H64.692V139.536H77.91v14.081H96.6V68.5H45.16V88.453H7Z" transform="translate(-6.116 -59.849)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+    </g>
+  </g>
+  <path id="Pfad_78" data-name="Pfad 78" d="M41.5,169.791v-8.124H74.966" transform="translate(-36.259 -141.251)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <g id="Gruppe_96" data-name="Gruppe 96">
+    <g id="Gruppe_95" data-name="Gruppe 95" clip-path="url(#clip-path)">
+      <path id="Pfad_79" data-name="Pfad 79" d="M355.833,14.767V7h38.791v7.767" transform="translate(-310.896 -6.116)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+    </g>
+  </g>
+  <rect id="Rechteck_108" data-name="Rechteck 108" width="20.185" height="8.335" transform="translate(10.355 41.864)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <rect id="Rechteck_109" data-name="Rechteck 109" width="33.655" height="8.335" transform="translate(48.62 19.006)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <rect id="Rechteck_110" data-name="Rechteck 110" width="33.655" height="8.335" transform="translate(48.62 34.287)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <rect id="Rechteck_111" data-name="Rechteck 111" width="33.655" height="8.335" transform="translate(48.62 47.547)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <rect id="Rechteck_112" data-name="Rechteck 112" width="33.655" height="8.335" transform="translate(48.62 62.449)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <rect id="Rechteck_113" data-name="Rechteck 113" width="20.185" height="8.335" transform="translate(10.355 54.998)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <rect id="Rechteck_114" data-name="Rechteck 114" width="20.185" height="8.335" transform="translate(10.355 70.026)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <g id="Gruppe_98" data-name="Gruppe 98">
+    <g id="Gruppe_97" data-name="Gruppe 97" clip-path="url(#clip-path)">
+      <line id="Linie_7" data-name="Linie 7" y2="65.164" transform="translate(39.044 28.604)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+    </g>
+  </g>
+  <line id="Linie_8" data-name="Linie 8" y2="8.335" transform="translate(20.448 41.864)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_9" data-name="Linie 9" y2="8.335" transform="translate(20.448 54.998)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_10" data-name="Linie 10" y2="8.335" transform="translate(20.448 70.026)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_11" data-name="Linie 11" y2="8.335" transform="translate(59.923 19.006)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_12" data-name="Linie 12" y2="8.335" transform="translate(59.923 34.287)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_13" data-name="Linie 13" y2="8.335" transform="translate(59.923 47.547)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_14" data-name="Linie 14" y2="8.335" transform="translate(59.923 62.449)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_15" data-name="Linie 15" y2="7.893" transform="translate(70.994 19.006)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_16" data-name="Linie 16" y2="8.335" transform="translate(70.994 34.287)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_17" data-name="Linie 17" y2="7.809" transform="translate(70.994 47.547)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  <line id="Linie_18" data-name="Linie 18" y2="7.577" transform="translate(70.994 62.449)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg id="Gruppe_139" data-name="Gruppe 139" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122.247" height="99.616" viewBox="0 0 122.247 99.616">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_140" data-name="Rechteck 140" width="122.247" height="99.616" fill="none" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_138" data-name="Gruppe 138" clip-path="url(#clip-path)">
+    <path id="Pfad_124" data-name="Pfad 124" d="M6.06,225.951v-7.505c.75-5.9,4.748-7.07,7.829-7.487l39.748-.008c7.811.425,7.524,7.084,7.478,8.421v37.148c0,6.33-4.165,7.246-5.747,7.246h-5.58L35.712,274.426l.083-9.578H14.306c-2.332,0-8.162-1.5-8.246-7.681-.134-9.976,0-21.174,0-21.174" transform="translate(-5.001 -175.81)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Pfad_125" data-name="Pfad 125" d="M349,6H318.659c-4.275,0-10.134,5.331-10.3,10.328V40.544" transform="translate(-256.992 -5.001)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Pfad_126" data-name="Pfad 126" d="M382.76,6h10.957c8.44.083,8.273,10.578,8.273,10.578l-.333,48.309s-1.083,9.745-10.411,9.578c-7.663,0-8.486,0-8.486,0L368.092,86.126V74.363l-25.237.518s-5.95-.587-6-3" transform="translate(-280.744 -5.001)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Linie_40" data-name="Linie 40" x1="4.664" y2="27.819" transform="translate(22.132 48.892)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Linie_41" data-name="Linie 41" x2="27.689" transform="translate(14.802 58.72)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Linie_42" data-name="Linie 42" x2="27.689" transform="translate(14.802 67.382)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Linie_43" data-name="Linie 43" x1="4.664" y2="27.819" transform="translate(30.961 48.892)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Pfad_127" data-name="Pfad 127" d="M460.859,102.5v36.981l27.3-18.49Z" transform="translate(-384.088 -85.425)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,167 @@
+@import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro");
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navigation */
+.navcontainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  background: #00000099 0% 0% no-repeat padding-box;
+}
+
+.navlist {
+  padding-right: 20px;
+  padding-top: 37px;
+}
+
+.navlist li {
+  display: inline;
+  list-style: none;
+  padding-right: 45px;
+}
+
+.nav_logo {
+  margin-right: auto;
+  width: 4.938rem;
+  height: 2.938rem;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.navlist li a {
+  text-decoration: none;
+  text-align: center;
+  font: normal normal normal 25px/29px Neue Haas Grotesk Display Pro;
+  letter-spacing: 0px;
+  color: #0ff9dd;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+}
+
+.navlist li a:hover {
+  color: #6a17f1;
+}
+
+.navlist li a:active {
+  color: #6a17f1;
+}
+
+.actual:visited {
+  color: #6a17f1;
+}
+
+/* Navbar Icons */
+
+.icon_container {
+  padding-right: 34.8px;
+  padding-top: 32.14px;
+}
+
+.profile_icon {
+  width: 2.079rem;
+  height: 2.357rem;
+  padding-right: 34.95px;
+  color: #0ff9dd;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.profile_icon:hover {
+  color: #6a17f1;
+}
+
+.profile_icon:visited {
+  color: #6a17f1;
+}
+
+.profile_icon:active {
+  color: #6a17f1;
+}
+
+.language_select {
+  width: 2.937rem;
+  height: 2.357rem;
+  color: #0ff9dd;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.language_select:hover {
+  color: #6a17f1;
+}
+
+.language_select:visited {
+  color: #6a17f1;
+}
+
+.language_select:active {
+  color: #6a17f1;
+}
+
+.navcontainer .toggle_btn {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 300px;
+  height: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open {
+  height: auto;
+}
+
+.burger_menu {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.dropdown_menu li {
+  list-style: none;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu a {
+  text-decoration: none;
+  color: #0ff9dd;
+}
+
+.profile_icon.burger,
+.language_select.burger {
+  width: 24px;
+  height: 24px;
+}
+
+.burger_menu {
+  align-items: center;
+  justify-content: center;
+  padding: 38px 45px;
+}
+
+.burger_menu:hover {
+  color: #6a17f1;
+}

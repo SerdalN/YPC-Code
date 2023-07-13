@@ -1,0 +1,37 @@
+<svg id="Gruppe_115" data-name="Gruppe 115" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56.346" height="98.564" viewBox="0 0 56.346 98.564">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_119" data-name="Rechteck 119" width="56.346" height="98.564" fill="none" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_108" data-name="Gruppe 108">
+    <g id="Gruppe_107" data-name="Gruppe 107" clip-path="url(#clip-path)">
+      <path id="Pfad_85" data-name="Pfad 85" d="M15.778,236.133l15.986-58.206L32.293,176H49.126l16.092,60.133L40.657,229.6Z" transform="translate(-12.437 -138.734)" fill="none" stroke="#0ff9dd" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+  <path id="Pfad_86" data-name="Pfad 86" d="M62.6,181.721,41.021,196.607l29.533,14.839-38.1,16.338,21.347,6.332,21.12-6.332L37.057,211.042l29.526-14.435L45.11,181.721" transform="translate(-25.586 -143.244)" fill="none" stroke="#0ff9dd" stroke-linejoin="bevel" stroke-width="3"/>
+  <path id="Pfad_87" data-name="Pfad 87" d="M82,145.214H78.834v-8.27" transform="translate(-62.142 -107.948)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Pfad_88" data-name="Pfad 88" d="M173.278,145.214h3.153v-8.27" transform="translate(-136.588 -107.948)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <g id="Gruppe_110" data-name="Gruppe 110">
+    <g id="Gruppe_109" data-name="Gruppe 109" clip-path="url(#clip-path)">
+      <path id="Pfad_89" data-name="Pfad 89" d="M59.517,136.944H5.5" transform="translate(-4.336 -107.948)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+  <path id="Pfad_90" data-name="Pfad 90" d="M23.778,58H70.066" transform="translate(-18.743 -45.719)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+  <path id="Pfad_91" data-name="Pfad 91" d="M93.99,66.47h16.621V58H93.778v8.47" transform="translate(-73.922 -45.719)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <line id="Linie_19" data-name="Linie 19" y1="8.246" x2="2.729" transform="translate(19.233 20.75)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+  <line id="Linie_20" data-name="Linie 20" x1="2.753" y1="8.246" transform="translate(34.925 20.75)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+  <g id="Gruppe_112" data-name="Gruppe 112">
+    <g id="Gruppe_111" data-name="Gruppe 111" clip-path="url(#clip-path)">
+      <line id="Linie_21" data-name="Linie 21" y2="11.116" transform="translate(28.061 1.165)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+      <line id="Linie_22" data-name="Linie 22" y2="5.176" transform="translate(3.341 23.82)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+  <line id="Linie_23" data-name="Linie 23" y2="7.399" transform="translate(11.599 21.597)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+  <line id="Linie_24" data-name="Linie 24" y2="7.399" transform="translate(44.947 21.597)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+  <g id="Gruppe_114" data-name="Gruppe 114">
+    <g id="Gruppe_113" data-name="Gruppe 113" clip-path="url(#clip-path)">
+      <line id="Linie_25" data-name="Linie 25" y2="5.176" transform="translate(52.993 23.82)" fill="none" stroke="#0ff9dd" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

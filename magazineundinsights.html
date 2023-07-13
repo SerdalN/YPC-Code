@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magazine & Insights</title>
+    </script>
+    <link rel="stylesheet" href="magazineundinsights.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navcontainer">
+        <img
+          class="nav_logo"
+          src="Stellenportal/images_stellenportal/ypc_logo.png"
+          alt="Young Profession Community Logo in türkis mit einem kleinen lila Akzent."
+        />
+        <nav class="navbar">
+          <ul class="navlist">
+            <li>
+              <a href="index.html">Stellenportal</a>
+            </li>
+            <li>
+              <a href="findeU.html">Finde dein Unternehmen</a>
+            </li>
+            <li>
+              <a href="#" class="actual">Magazine & Insights</a>
+            </li>
+            <li>
+              <a href="meettheteam.html">Meet the Team</a>
+            </li>
+          </ul>
+          <div class="icon_container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="profile_icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="language_select"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802"
+              />
+            </svg>
+          </div>
+
+          <!-- Dropdown Menu -->
+          <div class="toggle_btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="burger_menu"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </div>
+        </div>
+  
+        <div class="dropdown_menu">
+          <li><a href="">Stellenportal</a></li>
+          <li><a href="">Finde dein Unternehmen</a></li>
+          <li><a href="">Magazine & Insights</a></li>
+          <li><a href="">Meet the Team</a></li>
+          <li>
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="profile_icon burger"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+            />
+          </svg>
+          </li>
+          <li>            
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="language_select burger"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802"
+            />
+          </svg></li>
+          <script>const toggleBtn = document.querySelector(".toggle_btn");
+            const toggleBtnIcon = document.querySelector(".toggle_btn .burger_menu");
+            const dropDownMenu = document.querySelector(".dropdown_menu");
+            
+            toggleBtn.onclick = function () {
+              dropDownMenu.classList.toggle("open");
+              const isOpen = dropDownMenu.classList.contains("open");
+            
+              toggleBtnIcon.classList = isOpen ? "burger_menu" : "burger_menu";
+            };</script>
+        </nav>
+      </div>
+
+      <div class="headbanner_container">
+        <div><img src="Magazine_und_Insights/img/Entwurf Header Finde deine Karriere@2x.png" class="headbanner"
+          alt="Headbanner Magazine und Insights"></div>
+        <div><h1>Magazine & Insights</h1></div>
+      </div>
+    </header>
+
+    <div class="navigation_buttons">
+      <button>Überblick</button>
+      <button>Arbeitswelt</button>
+      <button>Bewerbung</button>
+      <button>Studium</button>
+      <button>Ausbildung</button>
+    </div>
+
+    <div class="intro_text">
+      <h2>Neues aus der IT</h2>
+      <p>
+        Hier erfährst du alle wichtigen Neuigkeiten, rund um die IT. Ob es neue
+        Forschungen, oder auch neue Ausbildungen sind, hier verpasst du nichts!
+      </p>
+    </div>
+
+    <div class="blog_teaser">
+      <div class="blog_card">
+        <img
+          src="Magazine_und_Insights/img/komponente_1.png"
+          alt=""
+          class="teaser_img"
+        />
+        <h3>Was haben Klimawandel, Nachspeisen und IT gemeinsam?</h3>
+        <p>
+          Lorem Ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eiemod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptue.
+        </p>
+      </div>
+      <div class="blog_card">
+        <img
+          src="Magazine_und_Insights/img/komponente_2.png"
+          alt=""
+          class="teaser_img"
+        />
+        <h3>Was haben Klimawandel, Nachspeisen und IT gemeinsam?</h3>
+        <p>
+          Lorem Ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eiemod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptue.
+        </p>
+      </div>
+      <div class="blog_card">
+        <img
+          src="Magazine_und_Insights/img/komponente_3.png"
+          alt=""
+          class="teaser_img"
+        />
+        <h3>Was haben Klimawandel, Nachspeisen und IT gemeinsam?</h3>
+        <p>
+          Lorem Ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eiemod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptue.
+        </p>
+      </div>
+    </div>
+
+    <div class="tipps_section">
+      <div class="studien_tipps">
+        <button class="tipp_button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="academic_hat"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+            />
+          </svg>
+        </button>
+        <h4>Tipps fürs Studium</h4>
+        <p class="beschreibung_text">
+          At vero eos et accusam et justo duo dolores et ea reburn. Stet clita
+          asd gubergren, no sea takimata sanctus est orem ipsum dolor sit met
+        </p>
+        <button class="mehr_erfahren">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="button_arrow"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+          <p>Mehr erfahren</p>
+        </button>
+      </div>
+      <div class="ausbildung_tipps">
+        <button class="tipp_button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="school_icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
+            />
+          </svg>
+        </button>
+        <h4>Tipps für die Ausbildung</h4>
+        <p class="beschreibung_text">
+          At vero eos et accusam et justo duo dolores et ea reburn. Stet clita
+          asd gubergren, no sea takimata sanctus est orem ipsum dolor sit met
+        </p>
+        <button class="mehr_erfahren">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="button_arrow"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+          <p>Mehr erfahren</p>
+        </button>
+      </div>
+    </div>
+    <div class="video_section">
+      <div class="videobeschreibung_container">
+        <h5>Vom Multimilliardär zum Obdachlosen?</h5>
+        <p>
+          Ihr denkt euch auch "einmal reich, immer reich?" Falsch! Denn auch die
+          Superlative der Bevölkerung hat mit schweren krisen zu kämpfen. Im
+          Interview mit Elon Musk erzählt er, wie er kurz vor dem Aus stand und
+          von superreich fast super arm gewordn ist.
+        </p>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="button_arrow"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+            /></svg
+          >Zum Video
+        </button>
+      </div>
+      <div class="video_box">
+        <iframe
+          class="video"
+          width="778"
+          height="438"
+          src="https://www.youtube.com/embed/veEqYQlfNx8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Footer Grid -->
+    <div class="footer-grid">
+      <div class="footer-left">
+        <h3 class="footer-headlines">Karriere</h3>
+        <br />
+        <ul class="footer-linkage">
+          <li>
+            <a href="#"
+              ><button class="footer-button">Berufserfahrung</button></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><button class="footer-button">Schüler & Studenten</button></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="footer-mid">
+        <h3 class="footer-headlines">Presse</h3>
+        <br />
+        <ul class="footer-linkage">
+          <li class="footer-button">
+            <a href="#"><button>Presseinformationen</button></a>
+          </li>
+          <li class="footer-button">
+            <a href="#"><button>Ansprechpartner</button></a>
+          </li>
+          <li class="footer-button">
+            <a href="#"><button>Logo</button></a>
+          </li>
+          <li class="footer-button">
+            <a href="#"><button>Informationen & Richtlinien</button></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <h3 class="footer-headlines">Rechtliche Hinweise & Zertifikate</h3>
+        <br />
+        <ul class="footer-linkage">
+          <li class="footer-button">
+            <a href="#"><button>Presseinformationen</button></a>
+          </li>
+          <li class="footer-button">
+            <a href="#"><button>Ansprechpartner</button></a>
+          </li>
+          <li class="footer-button">
+            <a href="#"><button>Logo</button></a>
+          </li>
+          <li class="footer-button">
+            <a href="#"><button>Informationen & Richtlinien</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

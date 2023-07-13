@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  box-sizing: border-box;
+}
+@import url("https://urldefense.proofpoint.com/v2/url?u=https-3A__fonts.cdnfonts.com_css_neue-2Dhaas-2Dgrotesk-2Ddisplay-2Dpro&d=DwIGAg&c=--1RjWWBW4Kf6aBAaj53vPItwfT0BR1YjSDV46P5EvE&r=mNPkCDTmdlFwY1QKCY8M_VacZOXqXC-7e-84fZl-HZQx5ZEC6Cu0X-QWa0erMkcf&m=x6aR3qNT5yNO6CYYaB57RhFhigv6JRyt9YdUD_UO9My8rgxiBEONVSg1oj2pp_-W&s=Ir-WEJjcI-U5hVEEnzzgIB_APiS4cQTZaUgDfUVBEp4&e= ");
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  max-height: none;
+  background-image: url("img/Background-Paper.png");
+  max-width: 4800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.actual:visited {
+  color: #6a17f1;
+}
+
+/* Navigation */
+.navcontainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  background: #00000099 0% 0% no-repeat padding-box;
+}
+
+.navlist {
+  padding-right: 20px;
+  padding-top: 37px;
+}
+
+.navlist li {
+  display: inline;
+  list-style: none;
+  padding-right: 45px;
+}
+
+.nav_logo {
+  margin-right: auto;
+  width: 4.938rem;
+  height: 2.938rem;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.navlist li a {
+  text-decoration: none;
+  text-align: center;
+  font: normal normal normal 25px/29px Neue Haas Grotesk Display Pro;
+  letter-spacing: 0px;
+  color: #0ff9dd;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+}
+
+.navlist li a:hover {
+  color: #6a17f1;
+}
+
+.navlist li a:active {
+  color: #6a17f1;
+}
+
+.actual:visited {
+  color: #6a17f1;
+}
+
+/* Navbar Icons */
+
+.icon_container {
+  padding-right: 34.8px;
+  padding-top: 32.14px;
+}
+
+.profile_icon {
+  width: 2.079rem;
+  height: 2.357rem;
+  padding-right: 34.95px;
+  color: #0ff9dd;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.profile_icon:hover {
+  color: #6a17f1;
+}
+
+.profile_icon:visited {
+  color: #6a17f1;
+}
+
+.profile_icon:active {
+  color: #6a17f1;
+}
+
+.language_select {
+  width: 2.937rem;
+  height: 2.357rem;
+  color: #0ff9dd;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.language_select:hover {
+  color: #6a17f1;
+}
+
+.language_select:visited {
+  color: #6a17f1;
+}
+
+.language_select:active {
+  color: #6a17f1;
+}
+
+.navcontainer .toggle_btn {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 300px;
+  height: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open {
+  height: auto;
+}
+
+.burger_menu {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.dropdown_menu li {
+  list-style: none;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu a {
+  text-decoration: none;
+  color: #0ff9dd;
+}
+
+.profile_icon.burger,
+.language_select.burger {
+  width: 24px;
+  height: 24px;
+}
+
+.burger_menu {
+  align-items: center;
+  justify-content: center;
+  padding: 38px 45px;
+}
+
+.burger_menu:hover {
+  color: #6a17f1;
+}
+
+/*Hero*/
+.Hero-Img {
+  width: 100%;
+  height: 700px;
+}
+.White-Stripe {
+  padding-top: 2rem;
+  background-color: #fff;
+  padding-bottom: 2rem;
+}
+.White-Stripe-Logos {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+.Ingram {
+  height: 37px;
+}
+.btn-center {
+  font-family: "neue Grotesk Display Pro", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #ffff;
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+  position: relative;
+  border: 3px solid #0ff9dd;
+  border-radius: 20px;
+}
+.btn-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.Branchen {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6rem;
+  margin-bottom: 8rem;
+}
+.Branchenkarte-Inhalt {
+  display: grid;
+  place-items: center;
+  padding-top: 6rem;
+}
+.Branchenkarte-Inhalt img {
+  padding-bottom: 4rem;
+}
+.Branchenkarte-Inhalt h3 {
+  padding-bottom: 1rem;
+}
+.Branchenkarte {
+  border: 4px solid #0ff9dd;
+  border-radius: 42px;
+  width: 454px;
+  height: 337px;
+}
+.Branchenkarte h3 {
+  color: #0ff9dd;
+}
+.Branchenkarte p {
+  color: #fff;
+  font-size: 25px;
+}
+.Seitenzahl {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.Seitennummer {
+  border: 4px solid #0ff9dd;
+  border-radius: 15px;
+  padding: 10px 15px 10px 15px;
+}
+.Seiten-Auswahl {
+  margin-bottom: 10rem;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 639.33px 639.33px 639.33px;
+  grid-auto-flow: column;
+  /* margin-top: 200px; */
+  width: 100%;
+  height: 342px;
+  background: #d9d9d9;
+  border: 1px;
+  border-style: solid;
+  border-color: #707070;
+  border-bottom: none;
+}
+
+.footer-left {
+  width: 221px;
+  height: auto;
+  padding-top: 58.11px;
+  padding-left: 209.16px;
+  padding-right: 209.16px;
+}
+
+.footer-mid {
+  width: 221px;
+  height: auto;
+  padding-top: 58.11px;
+  padding-left: 209.16px;
+  padding-right: 209.16px;
+}
+
+.footer-right {
+  width: 419px;
+  height: auto;
+  padding-top: 58.11px;
+  padding-left: 110.16px;
+  padding-right: 110.16px;
+}
+
+.footer-headlines {
+  font-family: normal normal bold 25px/30px Neue Haas Grotesk Display Pro;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #6a17f1;
+}
+
+.footer-button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: black;
+}
+
+.footer-button button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: black;
+}
+
+.footer-button:hover {
+  color: #6a17f1;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #6a17f1;
+  cursor: pointer;
+}
+
+.footer-grid ul {
+  list-style: none;
+  float: left;
+}
+.action {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+}
+.action,
+.dropdownmenu {
+  position: absolute;
+  top: 80px;
+  right: -10px;
+  padding: 10px 20px;
+  background: #fff;
+  width: 200px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.action,
+.menu::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 28px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+}

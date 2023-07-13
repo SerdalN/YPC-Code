@@ -1,0 +1,13 @@
+<svg id="Gruppe_90" data-name="Gruppe 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.618" height="53.5" viewBox="0 0 141.618 53.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_104" data-name="Rechteck 104" width="141.618" height="53.5" fill="none" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_89" data-name="Gruppe 89" clip-path="url(#clip-path)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="13.02" cy="13.02" r="13.02" transform="translate(15.937 26.268)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="13.02" cy="13.02" r="13.02" transform="translate(99.559 26.268)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+    <path id="Pfad_74" data-name="Pfad 74" d="M130.272,48.623h9.652c8.955-4.761,4.89-16.405,4.89-16.405-5.288-6.51-18.491-9.628-29.494-10.178-10.453-.55-25.49-11.37-25.49-11.37-9.719-5.5-33.192-4.585-41.077-2.751A72.375,72.375,0,0,0,26.013,18.556a71.646,71.646,0,0,1-14.487,1.284c-6.418.183-6.785,25.123-.55,27.874,6.968,2.567,10.819.917,10.819.917" transform="translate(-5.308 -5.308)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+    <line id="Linie_4" data-name="Linie 4" x2="58.402" transform="translate(41.978 43.845)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  </g>
+</svg>

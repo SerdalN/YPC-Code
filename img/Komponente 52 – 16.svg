@@ -1,0 +1,11 @@
+<svg id="Komponente_52_16" data-name="Komponente 52 – 16" xmlns="http://www.w3.org/2000/svg" width="182" height="182" viewBox="0 0 182 182">
+  <g id="Ellipse_4" data-name="Ellipse 4" fill="rgba(0,0,0,0.6)" stroke="#0ff9dd" stroke-width="4">
+    <circle cx="91" cy="91" r="91" stroke="none"/>
+    <circle cx="91" cy="91" r="89" fill="none"/>
+  </g>
+  <g id="Gruppe_92" data-name="Gruppe 92" transform="translate(43.058 48.644)">
+    <path id="Pfad_27" data-name="Pfad 27" d="M33.935,0,84.554,25.644l-.428.248L33.935,54.986-17.021,24.74Z" transform="translate(17.021)" fill="none" stroke="#0ff9dd" stroke-width="4"/>
+    <path id="Pfad_29" data-name="Pfad 29" d="M0,9.969V-5" transform="translate(102.944 32.25)" fill="none" stroke="#0ff9dd" stroke-linecap="square" stroke-width="4"/>
+    <path id="Pfad_30" data-name="Pfad 30" d="M0,0V26.608c5.38,27.611,64.365,28.009,71.955,0,.542-14.053,0-26.037,0-26.037" transform="translate(14.664 33.162)" fill="none" stroke="#0ff9dd" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,1507 @@
+@import url("https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  user-select: none;
+  display: border-box;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  background-image: url(Stellenportal/images_stellenportal/paperwrap-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font: normal normal normal 25px/29px Neue Haas Grotesk Display Pro;
+  letter-spacing: 0px;
+}
+
+.actual:visited {
+  color: #6a17f1;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* display: none; */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(96, 96, 96, 0.8);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(96, 96, 96, 1);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(96, 96, 96, 1);
+  border-radius: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navigation */
+.navcontainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  background: #00000099 0% 0% no-repeat padding-box;
+}
+
+.navlist {
+  padding-right: 20px;
+  padding-top: 37px;
+}
+
+.navlist li {
+  display: inline;
+  list-style: none;
+  padding-right: 45px;
+}
+
+.nav_logo {
+  margin-right: auto;
+  width: 4.938rem;
+  height: 2.938rem;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.navlist li a {
+  text-decoration: none;
+  text-align: center;
+  font: normal normal normal 25px/29px Neue Haas Grotesk Display Pro;
+  letter-spacing: 0px;
+  color: #0ff9dd;
+  font-size: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+}
+
+.navlist li a:hover {
+  color: #6a17f1;
+}
+
+.navlist li a:active {
+  color: #6a17f1;
+}
+
+.actual:visited {
+  color: #6a17f1;
+}
+
+/* Navbar Icons */
+
+.icon_container {
+  padding-right: 34.8px;
+  padding-top: 32.14px;
+}
+
+.profile_icon {
+  width: 2.079rem;
+  height: 2.357rem;
+  padding-right: 34.95px;
+  color: #0ff9dd;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.profile_icon:hover {
+  color: #6a17f1;
+}
+
+.profile_icon:visited {
+  color: #6a17f1;
+}
+
+.profile_icon:active {
+  color: #6a17f1;
+}
+
+.language_select {
+  width: 2.937rem;
+  height: 2.357rem;
+  color: #0ff9dd;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.language_select:hover {
+  color: #6a17f1;
+}
+
+.language_select:visited {
+  color: #6a17f1;
+}
+
+.language_select:active {
+  color: #6a17f1;
+}
+
+.navcontainer .toggle_btn {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 300px;
+  height: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open {
+  height: auto;
+}
+
+.burger_menu {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.dropdown_menu li {
+  list-style: none;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu a {
+  text-decoration: none;
+  color: #0ff9dd;
+}
+
+.profile_icon.burger,
+.language_select.burger {
+  width: 24px;
+  height: 24px;
+}
+
+.burger_menu {
+  align-items: center;
+  justify-content: center;
+  padding: 38px 45px;
+}
+
+.burger_menu:hover {
+  color: #6a17f1;
+}
+
+/* Search Bars */
+
+.bannersearch_container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+}
+
+.headbanner img {
+  object-fit: contain;
+  width: 100vw;
+  height: fit-content;
+}
+
+.searchbars_container {
+  display: flex;
+  justify-content: center;
+  transform: translate(0px, -150px);
+  width: 100vw;
+  height: auto;
+}
+
+.stichwortsuche,
+.plzsuche {
+  width: 33.5rem;
+  height: 4.375rem;
+  border: 4px solid #0ff9dd;
+  border-radius: 22px;
+  background: #00000099 0% 0% no-repeat padding-box;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 32px;
+}
+
+.stichwortsuche {
+  margin-right: 32px;
+}
+
+.stichwortsuche {
+  color: #6a17f1;
+}
+
+.plzsuche {
+  margin-right: 29.18px;
+  color: #6a17f1;
+}
+
+.submitbutton {
+  background: none;
+  border: none;
+}
+
+.searchbar_icon {
+  width: 2.136rem;
+  height: 3.455rem;
+  color: #0ff9dd;
+  transition: all 0.3s ease 0s;
+  stroke-width: 3px;
+}
+
+.searchbar_icon:hover {
+  color: #6a17f1;
+}
+
+/* Logo Caroussell */
+
+.Platzhalter_Logocaroussell {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 11.25rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.ypc_caroussell_logo {
+  width: 105px;
+  height: 62px;
+}
+
+.im_caroussell_logo {
+  width: 188px;
+  height: 37px;
+}
+
+/* Filter navigation */
+
+.ausbildung_studium_buttons {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 212px;
+}
+
+.ausbildung_studium_buttons button {
+  font: inherit;
+  font-weight: bold;
+  color: #0ff9dd;
+  width: 295px;
+  height: 72px;
+  border: 4px solid var(--unnamed-color-6a17f1);
+  border: 4px solid #0ff9dd;
+  border-radius: 22px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.ausbildung_studium_buttons button:hover {
+  transition: all 0.3s ease 0s;
+  border: 4px solid #6a17f1;
+  color: #6a17f1;
+}
+
+.ausbildung_studium_buttons #actual {
+  color: #6a17f1;
+  border: 4px solid #6a17f1;
+  cursor: default;
+}
+
+/* Ansichtsauswahl */
+.Platzhalter_ansichtsveränderung {
+  width: 100vw;
+  height: 3.563rem;
+  background: #00000099 0% 0% no-repeat padding-box;
+}
+
+/* Stellenportal */
+
+.stellen_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+}
+
+.stellenausschreibung {
+  display: flex;
+  width: 1502px;
+  height: 329.04px;
+  border: 4px solid var(--unnamed-color-0ff9dd);
+  background: #00000099 0% 0% no-repeat padding-box;
+  border: 4px solid #0ff9dd;
+  border-radius: 22px;
+  margin-bottom: 69.96px;
+  cursor: pointer;
+}
+
+.stellenausschreibung:last-child {
+  margin-bottom: 138.96px;
+}
+
+.stellenausschreibung:hover {
+  border: 4px solid #6a17f1;
+}
+
+.unternehmenslogo {
+  width: 231px;
+  height: 46px;
+  padding: 153.81px 61px 129.23px 37px;
+}
+
+h2 {
+  color: white;
+  font-family: inherit;
+  font-size: 35px;
+  letter-spacing: inherit;
+}
+
+.unternehmensbeschreibung {
+  padding-top: 53.81px;
+}
+
+.unternehmensbeschreibung_1 {
+  color: white;
+  font: inherit;
+  font-size: 25px;
+  padding-top: 32px;
+}
+
+.unternehmensbeschreibung_2 {
+  color: white;
+  font: inherit;
+  font-size: 25px;
+  padding-top: 11px;
+}
+
+.stelleninfo_short {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  width: 700px;
+  height: 30px;
+}
+
+.stelleninfo_dauer,
+.stelleninfo_verfügbar,
+.stelleninfo_start,
+.stelleninfo_dash {
+  color: #0ff9dd;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.zusatzinfo {
+  display: flex;
+  width: 106.02px;
+  height: 33px;
+  justify-content: space-between;
+  padding-left: 325.06px;
+  padding-top: 32.26px;
+}
+
+.academic_hat,
+.school_icon {
+  width: 36.91px;
+  height: 27.62px;
+  color: #0ff9dd;
+}
+
+.fav_icon {
+  width: 36.91px;
+  height: 27.62px;
+  color: #0ff9dd;
+}
+.fav_icon:hover {
+  stroke: 100%;
+  color: #6a17f1;
+  fill: #6a17f1;
+  transition: all 0.3s ease 0s;
+}
+
+/* Footer Grid */
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 639.33px 639.33px 639.33px;
+  grid-auto-flow: column;
+  /* margin-top: 200px; */
+  width: 100%;
+  height: 342px;
+  background: #d9d9d9;
+  border: 1px;
+  border-style: solid;
+  border-color: #707070;
+  border-bottom: none;
+}
+
+.footer-left {
+  width: 221px;
+  height: auto;
+  padding-top: 58.11px;
+  padding-left: 209.16px;
+  padding-right: 209.16px;
+}
+
+.footer-mid {
+  width: 221px;
+  height: auto;
+  padding-top: 58.11px;
+  padding-left: 209.16px;
+  padding-right: 209.16px;
+}
+
+.footer-right {
+  width: 419px;
+  height: auto;
+  padding-top: 58.11px;
+  padding-left: 110.16px;
+  padding-right: 110.16px;
+}
+
+.footer-headlines {
+  font-family: normal normal bold 25px/30px Neue Haas Grotesk Display Pro;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #6a17f1;
+}
+
+.footer-button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: black;
+}
+
+.footer-button button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  color: black;
+}
+
+.footer-button:hover {
+  color: #6a17f1;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #6a17f1;
+  cursor: pointer;
+}
+
+.footer-grid ul {
+  list-style: none;
+  float: left;
+}
+
+/* Responsive Design */
+
+/* 4k - 2560px*/
+@media (min-width: 2560px) {
+  .navcontainer {
+    width: 100vw;
+    height: auto;
+  }
+
+  .nav_logo {
+    width: 98.75px;
+    height: 58.75px;
+  }
+
+  .navcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+  }
+
+  .navbar ul {
+    padding: 0px;
+  }
+
+  .navlist li a {
+    font-size: 45px;
+  }
+
+  .icon_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 45px 0px 45px;
+  }
+
+  .icon_container .profile_icon {
+    transform: scale(175%);
+  }
+
+  .icon_container .language_select {
+    transform: scale(175%);
+  }
+
+  .searchbars_container {
+    display: none;
+  }
+
+  .ausbildung_studium_buttons {
+    width: 100vw;
+    height: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+
+  .ausbildung_studium_buttons button {
+    width: auto;
+    height: auto;
+    font-size: 45px;
+    padding: 45px;
+  }
+
+  .stellenausschreibung {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1920px;
+    height: auto;
+    padding: 60px 0px 60px 0px;
+  }
+
+  .stellenausschreibung .unternehmenslogo {
+    transform: scale(125%);
+    padding: 0px 0px 0px 25px;
+  }
+
+  .unternehmensbeschreibung {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1100px;
+    padding: 0px 0px 0px 25px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung h2 {
+    font-size: 54px;
+  }
+
+  .unternehmensbeschreibung_1 {
+    padding-top: 45px;
+  }
+
+  .unternehmensbeschreibung_2 {
+    padding-top: 25px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung p {
+    font-size: 45px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung .stelleninfo_short p {
+    font-size: 40px;
+    font-weight: normal;
+  }
+
+  .zusatzinfo svg {
+    transform: scale(200%);
+  }
+
+  .stellenausschreibung:last-child {
+    margin-bottom: 60px;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+  }
+
+  .footer-left {
+    padding: 0px;
+  }
+
+  .footer-left h3 {
+    font-size: 45px;
+  }
+
+  .footer-mid {
+    padding: 0px;
+  }
+
+  .footer-mid h3 {
+    font-size: 45px;
+  }
+
+  .footer-right {
+    padding: 0px;
+  }
+
+  .footer-right h3 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .footer-linkage a button {
+    font-size: 34px;
+    text-align: left;
+  }
+}
+
+/* Laptop L - 1440px */
+@media (max-width: 1440px) {
+  body {
+    width: 100vw;
+    height: auto;
+  }
+
+  header {
+    width: 100vw;
+    height: auto;
+  }
+
+  .navcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+  }
+
+  .navbar ul {
+    padding: 0px;
+  }
+
+  .icon_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+  }
+
+  .icon_container .profile_icon {
+    padding: 0px;
+  }
+
+  .nav_logo {
+    padding: 26.5px 0px 26.5px 26.5px;
+  }
+
+  .bannersearch_container {
+    height: auto;
+  }
+
+  .ausbildung_studium_buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .ausbildung_studium_buttons button {
+    width: auto;
+    height: auto;
+    font-size: 29px;
+    padding: 25px;
+  }
+
+  .stellen_container .stellenausschreibung {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    border: none;
+    border-top: 3px solid #0ff9dd;
+    border-bottom: 3px solid #0ff9dd;
+    margin-bottom: 50px;
+  }
+
+  .stellen_container .stellenausschreibung .unternehmenslogo {
+    width: 188px;
+    height: 37px;
+  }
+
+  .stellen_container .stellenausschreibung .unternehmensbeschreibung {
+    padding: 0px;
+    height: auto;
+  }
+
+  .stellen_container .stellenausschreibung .zusatzinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100vw;
+    padding: 0px;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    border: none;
+    flex-basis: auto;
+  }
+
+  .footer-grid .footer-left,
+  .footer-grid .footer-mid,
+  .footer-grid .footer-right {
+    padding: 0px;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 33%;
+  }
+
+  .footer-mid {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    flex-basis: 33%;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    width: auto;
+    align-content: end;
+    text-align: right;
+  }
+}
+
+/* Dropdownmenü */
+@media (max-width: 1260px) {
+  .navlist,
+  .icon_container {
+    display: none;
+  }
+
+  .navbar .toggle_btn {
+    display: block;
+    color: #0ff9dd;
+  }
+
+  .dropdown_menu {
+    display: block;
+    font-size: 16px;
+  }
+
+  .profile_icon {
+    padding: 0px;
+  }
+
+  .dropdown_menu li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  .dropdown_menu li a:hover {
+    color: #6a17f1;
+  }
+
+  .searchbars_container {
+    display: none;
+    height: auto;
+  }
+}
+
+/* Laptop - 1024px */
+@media (max-width: 1024px) {
+  body {
+    width: 100vw;
+    height: auto;
+    background-image: url(Stellenportal/images_stellenportal/paperwrap-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+
+  header {
+    width: 100vw;
+    height: auto;
+  }
+
+  .navcontainer {
+    width: 100vw;
+    height: 100px;
+  }
+
+  .navcontainer .nav_logo {
+    height: 47px;
+    width: 79px;
+    padding-top: 26.5px;
+    padding-left: 30px;
+    padding-bottom: 26.5px;
+  }
+
+  .navcontainer .toggle_btn .burger_menu {
+    width: 47px;
+    height: 47px;
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+  }
+
+  .bannersearch_container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .bannersearch_container .headbanner {
+    width: 100vw;
+    height: auto;
+  }
+
+  .ausbildung_studium_buttons {
+    width: 100vw;
+    height: auto;
+    justify-content: space-evenly;
+    padding: 30px 0px 30px 0px;
+  }
+
+  .ausbildung_studium_buttons button {
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    padding: 15px;
+    border: 3px solid #0ff9dd;
+  }
+
+  .stellen_container .stellenausschreibung {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    border: none;
+    border-top: 3px solid #0ff9dd;
+    border-bottom: 3px solid #0ff9dd;
+    margin-bottom: 50px;
+  }
+
+  .stellen_container .stellenausschreibung .unternehmenslogo {
+    width: 188px;
+    height: 37px;
+  }
+
+  .stellen_container .stellenausschreibung .unternehmensbeschreibung {
+    padding: 0px;
+    height: auto;
+  }
+
+  .stellen_container .stellenausschreibung .zusatzinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100vw;
+    padding: 0px;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    border: none;
+    flex-basis: auto;
+  }
+
+  .footer-grid .footer-left,
+  .footer-grid .footer-mid,
+  .footer-grid .footer-right {
+    padding: 0px;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 33%;
+  }
+
+  .footer-mid {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    flex-basis: 33%;
+  }
+
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    width: auto;
+    align-content: end;
+    text-align: right;
+  }
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+  body {
+    width: 100vw;
+    height: auto;
+    background-image: url(Stellenportal/images_stellenportal/paperwrap-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+
+  header {
+    width: 100vw;
+    height: auto;
+  }
+
+  .navcontainer {
+    width: 100vw;
+    height: 50px;
+  }
+
+  .navcontainer .nav_logo {
+    height: 14.6875px;
+    width: 24.6875px;
+    padding-top: 17.65625px;
+    padding-left: 30px;
+    padding-bottom: 17.65625px;
+  }
+
+  .navcontainer .toggle_btn .burger_menu {
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+  }
+
+  .Platzhalter_Logocaroussell {
+    display: none;
+  }
+
+  .ausbildung_studium_buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: auto;
+    padding: 24px 0px 30px 0px;
+  }
+
+  .ausbildung_studium_buttons button {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    border: 3px solid #0ff9dd;
+  }
+
+  .stellenausschreibung {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #0ff9dd;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid #0ff9dd;
+    border-top: 2px solid #0ff9dd;
+    border-radius: 22px;
+  }
+
+  .stellenausschreibung:last-child {
+    margin-bottom: 30px;
+  }
+
+  .vendor_logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+  }
+
+  .stellenausschreibung .vendor_logo img {
+    width: 30%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung_1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung_2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 0px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung .stelleninfo_short {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    padding-top: 32px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+  }
+
+  .stellenausschreibung
+    .unternehmensbeschreibung
+    .stelleninfo_short
+    .stelleninfo_dash {
+    display: none;
+  }
+
+  .stellenausschreibung .zusatzinfo {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+
+  .fav_icon {
+    display: none;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    padding: 0px;
+    border: none;
+  }
+
+  .footer-grid .footer-left,
+  .footer-grid .footer-mid,
+  .footer-grid .footer-right {
+    width: 100vw;
+    padding: 10px 0px 30px 0px;
+  }
+
+  .footer-grid .footer-left {
+    padding-top: 20px;
+  }
+
+  .footer-grid .footer-left ul,
+  .footer-grid .footer-mid ul,
+  .footer-grid .footer-right ul {
+    width: 100vw;
+  }
+}
+
+/* Dropdownmenü */
+@media (max-width: 576px) {
+  .dropdown_menu {
+    left: 2rem;
+    width: unset;
+  }
+}
+
+/* Mobile L - 425px */
+@media (max-width: 480px) {
+  body {
+    width: 100vw;
+    height: auto;
+    width: 100vw;
+    background-image: url(Stellenportal/images_stellenportal/paperwrap-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+
+  header {
+    width: 100vw;
+    height: auto;
+  }
+
+  .navcontainer {
+    width: 100vw;
+    height: 50px;
+  }
+
+  .navcontainer .nav_logo {
+    height: 14.6875px;
+    width: 24.6875px;
+    padding-top: 17.65625px;
+    padding-left: 30px;
+    padding-bottom: 17.65625px;
+  }
+
+  .navcontainer .toggle_btn .burger_menu {
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+  }
+
+  .ausbildung_studium_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+  }
+
+  .ausbildung_studium_buttons button {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    border: 3px solid #0ff9dd;
+  }
+
+  .stellenausschreibung {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border: none;
+    border-top: 2px solid #0ff9dd;
+    border-bottom: 2px solid #0ff9dd;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .stellenausschreibung:last-child {
+    margin-bottom: 30px;
+  }
+
+  .vendor_logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+  }
+
+  .stellenausschreibung .vendor_logo img {
+    width: 30%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung_1 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung_2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 0px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung .stelleninfo_short {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+  }
+
+  .stellenausschreibung
+    .unternehmensbeschreibung
+    .stelleninfo_short
+    .stelleninfo_dash {
+    display: none;
+  }
+
+  .stellenausschreibung .zusatzinfo {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+
+  .fav_icon {
+    display: none;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+  }
+
+  .footer-grid .footer-left,
+  .footer-grid .footer-mid,
+  .footer-grid .footer-right {
+    width: 100vw;
+    padding: 10px 0px 30px 0px;
+  }
+
+  .footer-grid .footer-left {
+    padding-top: 20px;
+  }
+
+  .footer-grid .footer-left ul,
+  .footer-grid .footer-mid ul,
+  .footer-grid .footer-right ul {
+    width: 100vw;
+  }
+}
+
+/* Mobile S - 320px, Mobile M - 375px */
+@media (max-width: 390px) {
+  body {
+    width: 100vw;
+    background-image: url(Stellenportal/images_stellenportal/paperwrap-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+
+  header {
+    width: 100vw;
+    height: auto;
+  }
+
+  .navcontainer {
+    width: 100vw;
+    height: 50px;
+  }
+
+  .navcontainer .nav_logo {
+    height: 11.75px;
+    width: 19.75px;
+    padding-top: 19.125px;
+    padding-left: 30px;
+    padding-bottom: 19.125px;
+  }
+
+  .navcontainer .toggle_btn .burger_menu {
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+  }
+
+  .bannersearch_container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .bannersearch_container .headbanner img {
+    width: 100vw;
+    height: auto;
+  }
+
+  .ausbildung_studium_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .ausbildung_studium_buttons button {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+    border: 3px solid #0ff9dd;
+  }
+
+  .stellenausschreibung {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border: none;
+    border-top: 2px solid #0ff9dd;
+    border-bottom: 2px solid #0ff9dd;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .stellenausschreibung:last-child {
+    margin-bottom: 30px;
+  }
+
+  .vendor_logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+
+  .stellenausschreibung .vendor_logo img {
+    width: 30%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung_1,
+  .stellenausschreibung .unternehmensbeschreibung_2,
+  .stellenausschreibung .unternehmensbeschreibung_1 {
+    display: none;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung_2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 0px;
+  }
+
+  .stellenausschreibung .unternehmensbeschreibung .stelleninfo_short {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+  }
+
+  .stellenausschreibung
+    .unternehmensbeschreibung
+    .stelleninfo_short
+    .stelleninfo_dash {
+    display: none;
+  }
+
+  .stellenausschreibung .zusatzinfo {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 0px;
+    padding-bottom: 15px;
+  }
+
+  .fav_icon {
+    display: none;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+  }
+
+  .footer-grid .footer-left,
+  .footer-grid .footer-mid,
+  .footer-grid .footer-right {
+    width: 100vw;
+    padding: 10px 0px 30px 0px;
+  }
+
+  .footer-grid .footer-left {
+    padding-top: 20px;
+  }
+
+  .footer-grid .footer-left ul,
+  .footer-grid .footer-mid ul,
+  .footer-grid .footer-right ul {
+    width: 100vw;
+  }
+}

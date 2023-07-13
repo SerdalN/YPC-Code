@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="109.21" height="97" viewBox="0 0 109.21 97">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_105" data-name="Rechteck 105" width="109.21" height="97" fill="none" stroke="#707070" stroke-width="3"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_91" data-name="Gruppe 91" clip-path="url(#clip-path)">
+    <path id="Pfad_75" data-name="Pfad 75" d="M10.5,16.391v55s.46,5.814,5.61,5.584c0,0,76.721-.267,83.4,0,5.75.23,5.739-5.788,5.739-5.788V31.826l.012-16.266a5.116,5.116,0,0,0-5.533-5.06H16.71s-6.21.23-6.21,6.67" transform="translate(-8.085 -8.085)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+    <path id="Pfad_76" data-name="Pfad 76" d="M41.612,136.878l4.05,21.569s1.525,5.629,6.544,4.453c0,0,75.354-14.419,81.97-15.39,5.694-.835,4.572-6.748,4.572-6.748l-7.074-37.675-.189-1-2.459-13.151" transform="translate(-32.041 -68.477)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+    <path id="Pfad_134" data-name="Pfad 134" d="M0,0H94.334" transform="translate(2.875 23.115)" fill="none" stroke="#0ff9dd" stroke-width="7"/>
+    <line id="Linie_6" data-name="Linie 6" x2="37.606" transform="translate(16.905 38.525)" fill="none" stroke="#0ff9dd" stroke-width="3"/>
+  </g>
+</svg>
